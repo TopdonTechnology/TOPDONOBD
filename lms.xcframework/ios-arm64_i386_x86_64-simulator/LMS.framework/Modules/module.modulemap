@@ -1,0 +1,6 @@
+framework module LMS {
+  umbrella header "LMS.h"
+
+  export *
+  module * { export * }
+}

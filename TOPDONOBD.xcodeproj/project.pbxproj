@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6102C90A6E7053E3A035874B /* libPods-TOPDONOBD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C58D58D92DB1979D3AC7199A /* libPods-TOPDONOBD.a */; };
+		C3D4D55026DE4C4200929805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D4D54E26DE4C4200929805 /* Main.storyboard */; };
+		C3D4D55226DE4C4800929805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D4D55126DE4C4800929805 /* Assets.xcassets */; };
+		C3D4D55526DE4C4800929805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D4D55326DE4C4800929805 /* LaunchScreen.storyboard */; };
+		C3D4D55826DE4C4800929805 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D55726DE4C4800929805 /* main.m */; };
+		C3D4D56226DE4C4900929805 /* TOPDONOBDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D56126DE4C4900929805 /* TOPDONOBDTests.m */; };
+		C3D4D56D26DE4C4900929805 /* TOPDONOBDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D56C26DE4C4900929805 /* TOPDONOBDUITests.m */; };
+		C3D4D5C726DE4CF000929805 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D58926DE4CEF00929805 /* AppDelegate.m */; };
+		C3D4D5C826DE4CF000929805 /* DashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D58D26DE4CEF00929805 /* DashboardView.m */; };
+		C3D4D5C926DE4CF000929805 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D58F26DE4CEF00929805 /* ListViewController.m */; };
+		C3D4D5CA26DE4CF000929805 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D59026DE4CEF00929805 /* DashboardViewController.m */; };
+		C3D4D5CB26DE4CF000929805 /* InfoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D59526DE4CF000929805 /* InfoBaseViewController.m */; };
+		C3D4D5CC26DE4CF000929805 /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D59626DE4CF000929805 /* ChartViewController.m */; };
+		C3D4D5CD26DE4CF000929805 /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D59926DE4CF000929805 /* ListModel.m */; };
+		C3D4D5CE26DE4CF000929805 /* DiagnoseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5A026DE4CF000929805 /* DiagnoseViewController.m */; };
+		C3D4D5CF26DE4CF000929805 /* ErrorCodeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5A126DE4CF000929805 /* ErrorCodeListViewController.m */; };
+		C3D4D5D026DE4CF000929805 /* ErrorCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5A326DE4CF000929805 /* ErrorCodeModel.m */; };
+		C3D4D5D126DE4CF000929805 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5A826DE4CF000929805 /* BaseViewController.m */; };
+		C3D4D5D226DE4CF000929805 /* LYLUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5AB26DE4CF000929805 /* LYLUnicode.m */; };
+		C3D4D5D326DE4CF000929805 /* OBDList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3D4D5AE26DE4CF000929805 /* OBDList.plist */; };
+		C3D4D5D426DE4CF000929805 /* CarErrorCode.db in Resources */ = {isa = PBXBuildFile; fileRef = C3D4D5AF26DE4CF000929805 /* CarErrorCode.db */; };
+		C3D4D5D526DE4CF000929805 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5B226DE4CF000929805 /* LoginViewController.m */; };
+		C3D4D5D626DE4CF000929805 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5B326DE4CF000929805 /* RegisterViewController.m */; };
+		C3D4D5D726DE4CF000929805 /* SignUpOrInDataManage.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5B826DE4CF000929805 /* SignUpOrInDataManage.m */; };
+		C3D4D5D826DE4CF000929805 /* UILabel+HLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5BA26DE4CF000929805 /* UILabel+HLabel.m */; };
+		C3D4D5D926DE4CF000929805 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5BD26DE4CF000929805 /* Tools.m */; };
+		C3D4D5DA26DE4CF000929805 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5BF26DE4CF000929805 /* HomeViewController.m */; };
+		C3D4D5DB26DE4CF000929805 /* HBLEDataManage.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5C126DE4CF000929805 /* HBLEDataManage.m */; };
+		C3D4D5DC26DE4CF000929805 /* HMBLECenterHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5C426DE4CF000929805 /* HMBLECenterHandle.m */; };
+		C3D4D5DD26DE4CF000929805 /* HBLETools.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D5C626DE4CF000929805 /* HBLETools.m */; };
+		C3D4D5FC26DE4E8800929805 /* lms.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D4D5F726DE4E6E00929805 /* lms.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3D4D55E26DE4C4900929805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3D4D53A26DE4C4200929805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D4D54126DE4C4200929805;
+			remoteInfo = TOPDONOBD;
+		};
+		C3D4D56926DE4C4900929805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3D4D53A26DE4C4200929805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D4D54126DE4C4200929805;
+			remoteInfo = TOPDONOBD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3D4D5FE26DE4E8800929805 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		007630BAF11BA8062A475213 /* Pods-TOPDONOBD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOPDONOBD.debug.xcconfig"; path = "Target Support Files/Pods-TOPDONOBD/Pods-TOPDONOBD.debug.xcconfig"; sourceTree = "<group>"; };
+		C3D4D54226DE4C4200929805 /* TOPDONOBD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOPDONOBD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D4D54F26DE4C4200929805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3D4D55126DE4C4800929805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3D4D55426DE4C4800929805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3D4D55626DE4C4800929805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D4D55726DE4C4800929805 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3D4D55D26DE4C4900929805 /* TOPDONOBDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOPDONOBDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D4D56126DE4C4900929805 /* TOPDONOBDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOPDONOBDTests.m; sourceTree = "<group>"; };
+		C3D4D56326DE4C4900929805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D4D56826DE4C4900929805 /* TOPDONOBDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOPDONOBDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D4D56C26DE4C4900929805 /* TOPDONOBDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOPDONOBDUITests.m; sourceTree = "<group>"; };
+		C3D4D56E26DE4C4900929805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D4D58926DE4CEF00929805 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3D4D58C26DE4CEF00929805 /* DashboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardView.h; sourceTree = "<group>"; };
+		C3D4D58D26DE4CEF00929805 /* DashboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardView.m; sourceTree = "<group>"; };
+		C3D4D58F26DE4CEF00929805 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		C3D4D59026DE4CEF00929805 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		C3D4D59126DE4CEF00929805 /* InfoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoBaseViewController.h; sourceTree = "<group>"; };
+		C3D4D59226DE4CEF00929805 /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		C3D4D59326DE4CF000929805 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		C3D4D59426DE4CF000929805 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		C3D4D59526DE4CF000929805 /* InfoBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoBaseViewController.m; sourceTree = "<group>"; };
+		C3D4D59626DE4CF000929805 /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		C3D4D59826DE4CF000929805 /* ListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
+		C3D4D59926DE4CF000929805 /* ListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
+		C3D4D59A26DE4CF000929805 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3D4D59B26DE4CF000929805 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C3D4D59E26DE4CF000929805 /* DiagnoseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiagnoseViewController.h; sourceTree = "<group>"; };
+		C3D4D59F26DE4CF000929805 /* ErrorCodeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorCodeListViewController.h; sourceTree = "<group>"; };
+		C3D4D5A026DE4CF000929805 /* DiagnoseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiagnoseViewController.m; sourceTree = "<group>"; };
+		C3D4D5A126DE4CF000929805 /* ErrorCodeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorCodeListViewController.m; sourceTree = "<group>"; };
+		C3D4D5A326DE4CF000929805 /* ErrorCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorCodeModel.m; sourceTree = "<group>"; };
+		C3D4D5A426DE4CF000929805 /* ErrorCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorCodeModel.h; sourceTree = "<group>"; };
+		C3D4D5A626DE4CF000929805 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C3D4D5A826DE4CF000929805 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C3D4D5A926DE4CF000929805 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C3D4D5AB26DE4CF000929805 /* LYLUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLUnicode.m; sourceTree = "<group>"; };
+		C3D4D5AC26DE4CF000929805 /* LYLUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLUnicode.h; sourceTree = "<group>"; };
+		C3D4D5AE26DE4CF000929805 /* OBDList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OBDList.plist; sourceTree = "<group>"; };
+		C3D4D5AF26DE4CF000929805 /* CarErrorCode.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = CarErrorCode.db; sourceTree = "<group>"; };
+		C3D4D5B226DE4CF000929805 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C3D4D5B326DE4CF000929805 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		C3D4D5B426DE4CF000929805 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C3D4D5B526DE4CF000929805 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		C3D4D5B726DE4CF000929805 /* SignUpOrInDataManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpOrInDataManage.h; sourceTree = "<group>"; };
+		C3D4D5B826DE4CF000929805 /* SignUpOrInDataManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpOrInDataManage.m; sourceTree = "<group>"; };
+		C3D4D5BA26DE4CF000929805 /* UILabel+HLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HLabel.m"; sourceTree = "<group>"; };
+		C3D4D5BB26DE4CF000929805 /* UILabel+HLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HLabel.h"; sourceTree = "<group>"; };
+		C3D4D5BD26DE4CF000929805 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		C3D4D5BE26DE4CF000929805 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		C3D4D5BF26DE4CF000929805 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C3D4D5C126DE4CF000929805 /* HBLEDataManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLEDataManage.m; sourceTree = "<group>"; };
+		C3D4D5C226DE4CF000929805 /* HMBLECenterHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMBLECenterHandle.h; sourceTree = "<group>"; };
+		C3D4D5C326DE4CF000929805 /* HBLETools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLETools.h; sourceTree = "<group>"; };
+		C3D4D5C426DE4CF000929805 /* HMBLECenterHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMBLECenterHandle.m; sourceTree = "<group>"; };
+		C3D4D5C526DE4CF000929805 /* HBLEDataManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLEDataManage.h; sourceTree = "<group>"; };
+		C3D4D5C626DE4CF000929805 /* HBLETools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLETools.m; sourceTree = "<group>"; };
+		C3D4D5F726DE4E6E00929805 /* lms.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = lms.xcframework; sourceTree = "<group>"; };
+		C58D58D92DB1979D3AC7199A /* libPods-TOPDONOBD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TOPDONOBD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE803B13FF64A88CC0C8119 /* Pods-TOPDONOBD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOPDONOBD.release.xcconfig"; path = "Target Support Files/Pods-TOPDONOBD/Pods-TOPDONOBD.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3D4D53F26DE4C4200929805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D4D5FC26DE4E8800929805 /* lms.xcframework in Frameworks */,
+				6102C90A6E7053E3A035874B /* libPods-TOPDONOBD.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D4D55A26DE4C4900929805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D4D56526DE4C4900929805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BDE6B33ACD254D650877622 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				007630BAF11BA8062A475213 /* Pods-TOPDONOBD.debug.xcconfig */,
+				DFE803B13FF64A88CC0C8119 /* Pods-TOPDONOBD.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98E08CF1BBB4F0C05C90605A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D5F726DE4E6E00929805 /* lms.xcframework */,
+				C58D58D92DB1979D3AC7199A /* libPods-TOPDONOBD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D4D53926DE4C4200929805 = {
+			isa = PBXGroup;
+			children = (
+				C3D4D54426DE4C4200929805 /* TOPDONOBD */,
+				C3D4D56026DE4C4900929805 /* TOPDONOBDTests */,
+				C3D4D56B26DE4C4900929805 /* TOPDONOBDUITests */,
+				C3D4D54326DE4C4200929805 /* Products */,
+				0BDE6B33ACD254D650877622 /* Pods */,
+				98E08CF1BBB4F0C05C90605A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3D4D54326DE4C4200929805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D54226DE4C4200929805 /* TOPDONOBD.app */,
+				C3D4D55D26DE4C4900929805 /* TOPDONOBDTests.xctest */,
+				C3D4D56826DE4C4900929805 /* TOPDONOBDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D4D54426DE4C4200929805 /* TOPDONOBD */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D5A726DE4CF000929805 /* Base */,
+				C3D4D59C26DE4CF000929805 /* Diagnose */,
+				C3D4D5AD26DE4CF000929805 /* File */,
+				C3D4D5C026DE4CF000929805 /* HBLE */,
+				C3D4D58A26DE4CEF00929805 /* List */,
+				C3D4D5AA26DE4CF000929805 /* LYLUnicode */,
+				C3D4D5BC26DE4CF000929805 /* Tools */,
+				C3D4D5B026DE4CF000929805 /* User */,
+				C3D4D59A26DE4CF000929805 /* AppDelegate.h */,
+				C3D4D58926DE4CEF00929805 /* AppDelegate.m */,
+				C3D4D59B26DE4CF000929805 /* HomeViewController.h */,
+				C3D4D5BF26DE4CF000929805 /* HomeViewController.m */,
+				C3D4D5A626DE4CF000929805 /* PrefixHeader.pch */,
+				C3D4D54E26DE4C4200929805 /* Main.storyboard */,
+				C3D4D55126DE4C4800929805 /* Assets.xcassets */,
+				C3D4D55326DE4C4800929805 /* LaunchScreen.storyboard */,
+				C3D4D55626DE4C4800929805 /* Info.plist */,
+				C3D4D55726DE4C4800929805 /* main.m */,
+			);
+			path = TOPDONOBD;
+			sourceTree = "<group>";
+		};
+		C3D4D56026DE4C4900929805 /* TOPDONOBDTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D56126DE4C4900929805 /* TOPDONOBDTests.m */,
+				C3D4D56326DE4C4900929805 /* Info.plist */,
+			);
+			path = TOPDONOBDTests;
+			sourceTree = "<group>";
+		};
+		C3D4D56B26DE4C4900929805 /* TOPDONOBDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D56C26DE4C4900929805 /* TOPDONOBDUITests.m */,
+				C3D4D56E26DE4C4900929805 /* Info.plist */,
+			);
+			path = TOPDONOBDUITests;
+			sourceTree = "<group>";
+		};
+		C3D4D58A26DE4CEF00929805 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D58B26DE4CEF00929805 /* View */,
+				C3D4D58E26DE4CEF00929805 /* ViewController */,
+				C3D4D59726DE4CF000929805 /* Mod */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		C3D4D58B26DE4CEF00929805 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D58C26DE4CEF00929805 /* DashboardView.h */,
+				C3D4D58D26DE4CEF00929805 /* DashboardView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3D4D58E26DE4CEF00929805 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D58F26DE4CEF00929805 /* ListViewController.m */,
+				C3D4D59026DE4CEF00929805 /* DashboardViewController.m */,
+				C3D4D59126DE4CEF00929805 /* InfoBaseViewController.h */,
+				C3D4D59226DE4CEF00929805 /* ChartViewController.h */,
+				C3D4D59326DE4CF000929805 /* DashboardViewController.h */,
+				C3D4D59426DE4CF000929805 /* ListViewController.h */,
+				C3D4D59526DE4CF000929805 /* InfoBaseViewController.m */,
+				C3D4D59626DE4CF000929805 /* ChartViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C3D4D59726DE4CF000929805 /* Mod */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D59826DE4CF000929805 /* ListModel.h */,
+				C3D4D59926DE4CF000929805 /* ListModel.m */,
+			);
+			path = Mod;
+			sourceTree = "<group>";
+		};
+		C3D4D59C26DE4CF000929805 /* Diagnose */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D59D26DE4CF000929805 /* ViewContronller */,
+				C3D4D5A226DE4CF000929805 /* Model */,
+				C3D4D5A526DE4CF000929805 /* View */,
+			);
+			path = Diagnose;
+			sourceTree = "<group>";
+		};
+		C3D4D59D26DE4CF000929805 /* ViewContronller */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D59E26DE4CF000929805 /* DiagnoseViewController.h */,
+				C3D4D59F26DE4CF000929805 /* ErrorCodeListViewController.h */,
+				C3D4D5A026DE4CF000929805 /* DiagnoseViewController.m */,
+				C3D4D5A126DE4CF000929805 /* ErrorCodeListViewController.m */,
+			);
+			path = ViewContronller;
+			sourceTree = "<group>";
+		};
+		C3D4D5A226DE4CF000929805 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D5A326DE4CF000929805 /* ErrorCodeModel.m */,
+				C3D4D5A426DE4CF000929805 /* ErrorCodeModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3D4D5A526DE4CF000929805 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3D4D5A726DE4CF000929805 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D5A826DE4CF000929805 /* BaseViewController.m */,
+				C3D4D5A926DE4CF000929805 /* BaseViewController.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C3D4D5AA26DE4CF000929805 /* LYLUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D5AB26DE4CF000929805 /* LYLUnicode.m */,
+				C3D4D5AC26DE4CF000929805 /* LYLUnicode.h */,
+			);
+			path = LYLUnicode;
+			sourceTree = "<group>";
+		};
+		C3D4D5AD26DE4CF000929805 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D5AE26DE4CF000929805 /* OBDList.plist */,
+				C3D4D5AF26DE4CF000929805 /* CarErrorCode.db */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		C3D4D5B026DE4CF000929805 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D5B126DE4CF000929805 /* ViewContronller */,
+				C3D4D5B626DE4CF000929805 /* Model */,
+				C3D4D5B926DE4CF000929805 /* View */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		C3D4D5B126DE4CF000929805 /* ViewContronller */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D5B226DE4CF000929805 /* LoginViewController.m */,
+				C3D4D5B326DE4CF000929805 /* RegisterViewController.m */,
+				C3D4D5B426DE4CF000929805 /* LoginViewController.h */,
+				C3D4D5B526DE4CF000929805 /* RegisterViewController.h */,
+			);
+			path = ViewContronller;
+			sourceTree = "<group>";
+		};
+		C3D4D5B626DE4CF000929805 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D5B726DE4CF000929805 /* SignUpOrInDataManage.h */,
+				C3D4D5B826DE4CF000929805 /* SignUpOrInDataManage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3D4D5B926DE4CF000929805 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D5BA26DE4CF000929805 /* UILabel+HLabel.m */,
+				C3D4D5BB26DE4CF000929805 /* UILabel+HLabel.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3D4D5BC26DE4CF000929805 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D5BD26DE4CF000929805 /* Tools.m */,
+				C3D4D5BE26DE4CF000929805 /* Tools.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C3D4D5C026DE4CF000929805 /* HBLE */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4D5C126DE4CF000929805 /* HBLEDataManage.m */,
+				C3D4D5C226DE4CF000929805 /* HMBLECenterHandle.h */,
+				C3D4D5C326DE4CF000929805 /* HBLETools.h */,
+				C3D4D5C426DE4CF000929805 /* HMBLECenterHandle.m */,
+				C3D4D5C526DE4CF000929805 /* HBLEDataManage.h */,
+				C3D4D5C626DE4CF000929805 /* HBLETools.m */,
+			);
+			path = HBLE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3D4D54126DE4C4200929805 /* TOPDONOBD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D4D57126DE4C4900929805 /* Build configuration list for PBXNativeTarget "TOPDONOBD" */;
+			buildPhases = (
+				C19A7B94C7E59CD00C6E9148 /* [CP] Check Pods Manifest.lock */,
+				C3D4D53E26DE4C4200929805 /* Sources */,
+				C3D4D53F26DE4C4200929805 /* Frameworks */,
+				C3D4D54026DE4C4200929805 /* Resources */,
+				83374BD1269470D8CCD06FAC /* [CP] Copy Pods Resources */,
+				C3D4D5FE26DE4E8800929805 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TOPDONOBD;
+			productName = TOPDONOBD;
+			productReference = C3D4D54226DE4C4200929805 /* TOPDONOBD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3D4D55C26DE4C4900929805 /* TOPDONOBDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D4D57426DE4C4900929805 /* Build configuration list for PBXNativeTarget "TOPDONOBDTests" */;
+			buildPhases = (
+				C3D4D55926DE4C4900929805 /* Sources */,
+				C3D4D55A26DE4C4900929805 /* Frameworks */,
+				C3D4D55B26DE4C4900929805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D4D55F26DE4C4900929805 /* PBXTargetDependency */,
+			);
+			name = TOPDONOBDTests;
+			productName = TOPDONOBDTests;
+			productReference = C3D4D55D26DE4C4900929805 /* TOPDONOBDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3D4D56726DE4C4900929805 /* TOPDONOBDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D4D57726DE4C4900929805 /* Build configuration list for PBXNativeTarget "TOPDONOBDUITests" */;
+			buildPhases = (
+				C3D4D56426DE4C4900929805 /* Sources */,
+				C3D4D56526DE4C4900929805 /* Frameworks */,
+				C3D4D56626DE4C4900929805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D4D56A26DE4C4900929805 /* PBXTargetDependency */,
+			);
+			name = TOPDONOBDUITests;
+			productName = TOPDONOBDUITests;
+			productReference = C3D4D56826DE4C4900929805 /* TOPDONOBDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3D4D53A26DE4C4200929805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C3D4D54126DE4C4200929805 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C3D4D55C26DE4C4900929805 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C3D4D54126DE4C4200929805;
+					};
+					C3D4D56726DE4C4900929805 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C3D4D54126DE4C4200929805;
+					};
+				};
+			};
+			buildConfigurationList = C3D4D53D26DE4C4200929805 /* Build configuration list for PBXProject "TOPDONOBD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3D4D53926DE4C4200929805;
+			productRefGroup = C3D4D54326DE4C4200929805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3D4D54126DE4C4200929805 /* TOPDONOBD */,
+				C3D4D55C26DE4C4900929805 /* TOPDONOBDTests */,
+				C3D4D56726DE4C4900929805 /* TOPDONOBDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3D4D54026DE4C4200929805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D4D5D326DE4CF000929805 /* OBDList.plist in Resources */,
+				C3D4D5D426DE4CF000929805 /* CarErrorCode.db in Resources */,
+				C3D4D55526DE4C4800929805 /* LaunchScreen.storyboard in Resources */,
+				C3D4D55226DE4C4800929805 /* Assets.xcassets in Resources */,
+				C3D4D55026DE4C4200929805 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D4D55B26DE4C4900929805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D4D56626DE4C4900929805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83374BD1269470D8CCD06FAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TOPDONOBD/Pods-TOPDONOBD-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TOPDONOBD/Pods-TOPDONOBD-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TOPDONOBD/Pods-TOPDONOBD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C19A7B94C7E59CD00C6E9148 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TOPDONOBD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3D4D53E26DE4C4200929805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D4D5CA26DE4CF000929805 /* DashboardViewController.m in Sources */,
+				C3D4D5DB26DE4CF000929805 /* HBLEDataManage.m in Sources */,
+				C3D4D5D826DE4CF000929805 /* UILabel+HLabel.m in Sources */,
+				C3D4D5D126DE4CF000929805 /* BaseViewController.m in Sources */,
+				C3D4D5D926DE4CF000929805 /* Tools.m in Sources */,
+				C3D4D5D726DE4CF000929805 /* SignUpOrInDataManage.m in Sources */,
+				C3D4D5C726DE4CF000929805 /* AppDelegate.m in Sources */,
+				C3D4D5CF26DE4CF000929805 /* ErrorCodeListViewController.m in Sources */,
+				C3D4D5DD26DE4CF000929805 /* HBLETools.m in Sources */,
+				C3D4D5D526DE4CF000929805 /* LoginViewController.m in Sources */,
+				C3D4D5C826DE4CF000929805 /* DashboardView.m in Sources */,
+				C3D4D5DC26DE4CF000929805 /* HMBLECenterHandle.m in Sources */,
+				C3D4D5CE26DE4CF000929805 /* DiagnoseViewController.m in Sources */,
+				C3D4D5CD26DE4CF000929805 /* ListModel.m in Sources */,
+				C3D4D5CC26DE4CF000929805 /* ChartViewController.m in Sources */,
+				C3D4D5CB26DE4CF000929805 /* InfoBaseViewController.m in Sources */,
+				C3D4D5D626DE4CF000929805 /* RegisterViewController.m in Sources */,
+				C3D4D5D026DE4CF000929805 /* ErrorCodeModel.m in Sources */,
+				C3D4D5C926DE4CF000929805 /* ListViewController.m in Sources */,
+				C3D4D5D226DE4CF000929805 /* LYLUnicode.m in Sources */,
+				C3D4D5DA26DE4CF000929805 /* HomeViewController.m in Sources */,
+				C3D4D55826DE4C4800929805 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D4D55926DE4C4900929805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D4D56226DE4C4900929805 /* TOPDONOBDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D4D56426DE4C4900929805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D4D56D26DE4C4900929805 /* TOPDONOBDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3D4D55F26DE4C4900929805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3D4D54126DE4C4200929805 /* TOPDONOBD */;
+			targetProxy = C3D4D55E26DE4C4900929805 /* PBXContainerItemProxy */;
+		};
+		C3D4D56A26DE4C4900929805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3D4D54126DE4C4200929805 /* TOPDONOBD */;
+			targetProxy = C3D4D56926DE4C4900929805 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3D4D54E26DE4C4200929805 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D4D54F26DE4C4200929805 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3D4D55326DE4C4800929805 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D4D55426DE4C4800929805 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3D4D56F26DE4C4900929805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3D4D57026DE4C4900929805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3D4D57226DE4C4900929805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007630BAF11BA8062A475213 /* Pods-TOPDONOBD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = MV5S3U9548;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TOPDONOBD/PrefixHeader.pch";
+				INFOPLIST_FILE = TOPDONOBD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.topdon.TOPDONOBD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C3D4D57326DE4C4900929805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE803B13FF64A88CC0C8119 /* Pods-TOPDONOBD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = MV5S3U9548;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TOPDONOBD/PrefixHeader.pch";
+				INFOPLIST_FILE = TOPDONOBD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.topdon.TOPDONOBD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C3D4D57526DE4C4900929805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TOPDONOBDTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = topdon.TOPDONOBDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOPDONOBD.app/TOPDONOBD";
+			};
+			name = Debug;
+		};
+		C3D4D57626DE4C4900929805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TOPDONOBDTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = topdon.TOPDONOBDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOPDONOBD.app/TOPDONOBD";
+			};
+			name = Release;
+		};
+		C3D4D57826DE4C4900929805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TOPDONOBDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = topdon.TOPDONOBDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TOPDONOBD;
+			};
+			name = Debug;
+		};
+		C3D4D57926DE4C4900929805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TOPDONOBDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = topdon.TOPDONOBDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TOPDONOBD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3D4D53D26DE4C4200929805 /* Build configuration list for PBXProject "TOPDONOBD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D4D56F26DE4C4900929805 /* Debug */,
+				C3D4D57026DE4C4900929805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D4D57126DE4C4900929805 /* Build configuration list for PBXNativeTarget "TOPDONOBD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D4D57226DE4C4900929805 /* Debug */,
+				C3D4D57326DE4C4900929805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D4D57426DE4C4900929805 /* Build configuration list for PBXNativeTarget "TOPDONOBDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D4D57526DE4C4900929805 /* Debug */,
+				C3D4D57626DE4C4900929805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D4D57726DE4C4900929805 /* Build configuration list for PBXNativeTarget "TOPDONOBDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D4D57826DE4C4900929805 /* Debug */,
+				C3D4D57926DE4C4900929805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3D4D53A26DE4C4200929805 /* Project object */;
+}
